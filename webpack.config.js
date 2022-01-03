@@ -25,6 +25,7 @@ module.exports = (env, argv) =>{
       new MiniCssExtractPlugin({
         filename: filename('css'),
       }),
+
     ]
     if (isDev) {
       base.push(new ESLintPlugin())
